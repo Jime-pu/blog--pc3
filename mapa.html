@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c99a85db97465dd50a3e026f60e5f142 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c99a85db97465dd50a3e026f60e5f142" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c99a85db97465dd50a3e026f60e5f142 = L.map(
+                "map_c99a85db97465dd50a3e026f60e5f142",
+                {
+                    center: [29.652635399999998, -18.235467999999997],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30a28b07e3146c4eb39aa8c06b35ba2d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_30a28b07e3146c4eb39aa8c06b35ba2d.addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+            var marker_ea5540f40f4e0d3b3eedcfc740bbe627 = L.marker(
+                [40.77444, -73.96305],
+                {
+}
+            ).addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+            var icon_6622a923ecbb0e89b1c5d4d73741e9da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef50bc4c088c23d0e8938dee16dee4b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_652da29d406db78ff7f318bfa1cad3ef = $(`<div id="html_652da29d406db78ff7f318bfa1cad3ef" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; max-width: 250px;">         <h3>La jaula de las locas</h3>         <p><strong>Top:</strong> 1</p>         <p><strong>Género:</strong> Comedia</p>         <p><strong>Año:</strong> 1996</p>         <p><strong>Director:</strong> Mike Nichols</p>         <p><strong>Clasificación:</strong> R</p>         <p><strong>Coordenadas:</strong> 40.77444, -73.96305</p>         <img src="https://static.wikia.nocookie.net/doblaje/images/a/a6/Birdcage.jpg/revision/latest?cb=20181126050816&path-prefix=es" alt="Portada" style="max-width: 100%; border-radius: 5px; margin-top: 5px;">     </div>     </div>`)[0];
+                popup_ef50bc4c088c23d0e8938dee16dee4b9.setContent(html_652da29d406db78ff7f318bfa1cad3ef);
+            
+        
+
+        marker_ea5540f40f4e0d3b3eedcfc740bbe627.bindPopup(popup_ef50bc4c088c23d0e8938dee16dee4b9)
+        ;
+
+        
+    
+    
+            marker_ea5540f40f4e0d3b3eedcfc740bbe627.bindTooltip(
+                `<div>
+                     La jaula de las locas (Top 1)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ea5540f40f4e0d3b3eedcfc740bbe627.setIcon(icon_6622a923ecbb0e89b1c5d4d73741e9da);
+            
+    
+            var marker_cb4b9c799c9b3d983eafeea886d48e85 = L.marker(
+                [32.0075, -80.845],
+                {
+}
+            ).addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+            var icon_ab87c909965ff94672aca8399ae6d241 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_935a8bbeddbb1c943754c001505c8dad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_139bacd9b42e87c93c72092e3c9779c7 = $(`<div id="html_139bacd9b42e87c93c72092e3c9779c7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; max-width: 250px;">         <h3>Él menú</h3>         <p><strong>Top:</strong> 2</p>         <p><strong>Género:</strong> Drama</p>         <p><strong>Año:</strong> 2022</p>         <p><strong>Director:</strong> Mark Mylod</p>         <p><strong>Clasificación:</strong> R</p>         <p><strong>Coordenadas:</strong> 32.0075, -80.8450</p>         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidJUX3i-pFG7GL_3Cv3x1M4k4TTm5cOQEXaqq7chBMa22fpeDAoZLbZQFrgH2_YS4mCv1YTgri-MVUSIRUOrOzrQqSG1fhB0cas-Tskdt3M9cGGPitDrn7KuHZlXWBXSGycmqKzj0oWPS4L_6T9lNSJF9Z62g8Ll5gy4w1-TUUrA_BmRnybUs2Yyhi/s660/el-menu-poster.png" alt="Portada" style="max-width: 100%; border-radius: 5px; margin-top: 5px;">     </div>     </div>`)[0];
+                popup_935a8bbeddbb1c943754c001505c8dad.setContent(html_139bacd9b42e87c93c72092e3c9779c7);
+            
+        
+
+        marker_cb4b9c799c9b3d983eafeea886d48e85.bindPopup(popup_935a8bbeddbb1c943754c001505c8dad)
+        ;
+
+        
+    
+    
+            marker_cb4b9c799c9b3d983eafeea886d48e85.bindTooltip(
+                `<div>
+                     Él menú (Top 2)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb4b9c799c9b3d983eafeea886d48e85.setIcon(icon_ab87c909965ff94672aca8399ae6d241);
+            
+    
+            var marker_79e0659a6d39685f407ed8c0e960e884 = L.marker(
+                [51.548817, -0.53235],
+                {
+}
+            ).addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+            var icon_cf07e633804c6c4ae8d019672725b79c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3b7c92e9b6a809ce0a2627f4ea29d9b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6725374218f12f21032f91967978f58e = $(`<div id="html_6725374218f12f21032f91967978f58e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; max-width: 250px;">         <h3>Frankenstein</h3>         <p><strong>Top:</strong> 3</p>         <p><strong>Género:</strong> Terror</p>         <p><strong>Año:</strong> 2025</p>         <p><strong>Director:</strong> Guillermo del Toro</p>         <p><strong>Clasificación:</strong> R</p>         <p><strong>Coordenadas:</strong> 51.548817, -0.53235</p>         <img src="https://static.wikia.nocookie.net/doblaje/images/4/4e/Frankenstein_%282025%29.jpg/revision/latest?cb=20251027061432&path-prefix=es" alt="Portada" style="max-width: 100%; border-radius: 5px; margin-top: 5px;">     </div>     </div>`)[0];
+                popup_f3b7c92e9b6a809ce0a2627f4ea29d9b.setContent(html_6725374218f12f21032f91967978f58e);
+            
+        
+
+        marker_79e0659a6d39685f407ed8c0e960e884.bindPopup(popup_f3b7c92e9b6a809ce0a2627f4ea29d9b)
+        ;
+
+        
+    
+    
+            marker_79e0659a6d39685f407ed8c0e960e884.bindTooltip(
+                `<div>
+                     Frankenstein (Top 3)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_79e0659a6d39685f407ed8c0e960e884.setIcon(icon_cf07e633804c6c4ae8d019672725b79c);
+            
+    
+            var marker_cfd5a823b5ca76284d977b6de7064d4e = L.marker(
+                [-11.7752, -75.5],
+                {
+}
+            ).addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+            var icon_b56cd28df7a68ecfdcc72168910fc8db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c66943a2bff2db6687a9436173b37177 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c8c454a74e935fafa1683a3ac337b1c7 = $(`<div id="html_c8c454a74e935fafa1683a3ac337b1c7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; max-width: 250px;">         <h3>El Huatrila</h3>         <p><strong>Top:</strong> 4</p>         <p><strong>Género:</strong> Coming of Age</p>         <p><strong>Año:</strong> 2023</p>         <p><strong>Director:</strong> Robert Flores</p>         <p><strong>Clasificación:</strong> PG13</p>         <p><strong>Coordenadas:</strong> -11.7752, -75.5000</p>         <img src="https://pics.filmaffinity.com/el_huatrila-872831894-large.jpg" alt="Portada" style="max-width: 100%; border-radius: 5px; margin-top: 5px;">     </div>     </div>`)[0];
+                popup_c66943a2bff2db6687a9436173b37177.setContent(html_c8c454a74e935fafa1683a3ac337b1c7);
+            
+        
+
+        marker_cfd5a823b5ca76284d977b6de7064d4e.bindPopup(popup_c66943a2bff2db6687a9436173b37177)
+        ;
+
+        
+    
+    
+            marker_cfd5a823b5ca76284d977b6de7064d4e.bindTooltip(
+                `<div>
+                     El Huatrila (Top 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cfd5a823b5ca76284d977b6de7064d4e.setIcon(icon_b56cd28df7a68ecfdcc72168910fc8db);
+            
+    
+            var marker_f88ae3c09a5ef311c1e51ff485bcb85e = L.marker(
+                [35.70762, 139.66306],
+                {
+}
+            ).addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+            var icon_3171b7a9c31db51bcf65f0aa9f965cd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b92edaa32a52070ea19134fa6d97084f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab7e4bcd8f9987371055b92c1c5b5c94 = $(`<div id="html_ab7e4bcd8f9987371055b92c1c5b5c94" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; max-width: 250px;">         <h3>Gokinjo Monogatari</h3>         <p><strong>Top:</strong> 5</p>         <p><strong>Género:</strong> Comedia</p>         <p><strong>Año:</strong> 1995</p>         <p><strong>Director:</strong> Atsuji Shimizu</p>         <p><strong>Clasificación:</strong> PG13</p>         <p><strong>Coordenadas:</strong> 35.70762, 139.66306</p>         <img src="https://pics.filmaffinity.com/gokinjo_monogatari-870405943-large.jpg" alt="Portada" style="max-width: 100%; border-radius: 5px; margin-top: 5px;">     </div>     </div>`)[0];
+                popup_b92edaa32a52070ea19134fa6d97084f.setContent(html_ab7e4bcd8f9987371055b92c1c5b5c94);
+            
+        
+
+        marker_f88ae3c09a5ef311c1e51ff485bcb85e.bindPopup(popup_b92edaa32a52070ea19134fa6d97084f)
+        ;
+
+        
+    
+    
+            marker_f88ae3c09a5ef311c1e51ff485bcb85e.bindTooltip(
+                `<div>
+                     Gokinjo Monogatari (Top 5)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f88ae3c09a5ef311c1e51ff485bcb85e.setIcon(icon_3171b7a9c31db51bcf65f0aa9f965cd5);
+            
+    
+            tile_layer_30a28b07e3146c4eb39aa8c06b35ba2d.addTo(map_c99a85db97465dd50a3e026f60e5f142);
+        
+    
+                marker_ea5540f40f4e0d3b3eedcfc740bbe627.setIcon(icon_6622a923ecbb0e89b1c5d4d73741e9da);
+            
+    
+                marker_cb4b9c799c9b3d983eafeea886d48e85.setIcon(icon_ab87c909965ff94672aca8399ae6d241);
+            
+    
+                marker_79e0659a6d39685f407ed8c0e960e884.setIcon(icon_cf07e633804c6c4ae8d019672725b79c);
+            
+    
+                marker_cfd5a823b5ca76284d977b6de7064d4e.setIcon(icon_b56cd28df7a68ecfdcc72168910fc8db);
+            
+    
+                marker_f88ae3c09a5ef311c1e51ff485bcb85e.setIcon(icon_3171b7a9c31db51bcf65f0aa9f965cd5);
+            
+</script>
+</html>

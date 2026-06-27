@@ -42,7 +42,7 @@ import streamlit.components.v1 as components
 # Crea una barra lateral (sidebar) en la aplicación.
 with st.sidebar:
     opciones = option_menu("Selecciona una sección: ",['Inicio', 'Experiencia', 'Gráficos'] , 
-        icons=['0-circle','1-circle', '2-circle'], menu_icon="Flower1", default_index=0)
+        icons=['hearts','flower1', 'cookie'], menu_icon="Flower1", default_index=0)
     # Crea un menú de opciones dentro de la barra lateral -> option_menu(...)
     # Título que se mostrará encima del menú -> "Selecciona una sección: "
     # Lista de opciones disponibles para navegar -> ['Inicio', 'Experiencia', 'Gráficos']
@@ -68,7 +68,7 @@ with st.sidebar:
 # Verifica si el usuario ha seleccionado la opción "Inicio" en el menú de navegación horizontal.
 # OJO: En caso que elijas el menú de la barra lateral (sidebar) debes cambiar "selected" por "opciones"
 if opciones == 'Inicio':
-    st.markdown("<h1 style='text-align: center;'>Nombre del blog</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>⋆˚꩜｡Mi primer blog⋆˚꩜｡</h1>", unsafe_allow_html=True)
     # Muestra un título principal utilizando HTML -> st.markdown("...", unsafe_allow_html=True)
     # La etiqueta <h1> define un encabezado de nivel 1 -> "<h1 ...>...</h1>"
     # El estilo CSS 'text-align: center' centra el texto -> style='text-align: center;'
@@ -78,20 +78,22 @@ if opciones == 'Inicio':
     col1, col2 = st.columns(2)
 
     # Muestra una imagen en la primera columna
-    col1.image("ellie.png", caption='Ellie', width=300)
+    col1.image("foto.jpg", caption='Yo', width=300)
     # "ellie.png" es el archivo de imagen que se visualizará -> Aquí debes reemplazar por tu foto de perfil
     # El texto "Ellie" aparecerá como descripción de la imagen
     # width=300 establece el ancho de la imagen en 300 píxeles
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+     ────୨ৎ────
+    ˚˖𓍢ִ໋❀
+    Soy un estudiante de Comunicacion Audiovisual, me gusta escribir y narrar historias, me gusta el cine y la moda, ademas me gusta comer todo tipo de comida, mi color favorito es el color verde y mi plato favorito es la causa de atún
+    Yo nací y crecí en Lima, sin embargo mis papá son migrantes 
+    Actualmente me encuentro en el quinto ciclo de la facultad de Ciencias y Artes de la Comunicación de la Pontificia Universidad Catolica del Perú 
+    Lo que me gusta de mi carrera es que me da la posibilidad de crear, las producciones audiovisuales estan en todas partes y ser comunicador te permite trabajar en lugares de manera muy versatil  
+    Me gustaría trabajar en el área documental, aunque tambien en cualquier nota cultural, probablemente tal vez trabajar en la produccion de una película, mi sueño dorado sería trabajar en Aarmand Studios, ya que es mi estudio de animación predilecto, ya que me gusta mucho el stop motion
+    Algo que me gusta tambien es el maquillaje, me gustan los maquillajes creativos o extravagantes ademas de los accesorios de gran tamañano
+    ────୨ৎ──── 
     """
 
     # Muestra el texto en la segunda columna utilizando HTML
@@ -104,7 +106,7 @@ elif opciones == 'Experiencia':
     st.markdown("<h1 style='text-align: center;'>Nombre a la sección de experiencia 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
-    texto_2 = """
+    texto_2 = """Python me esta enseñando a entender y crear
     Aquí escribe tu experiencia aprendiendo a programar. 
     ¿Cómo te sentiste al principio?, 
     ¿Qué te ha enseñado la programación?, 
