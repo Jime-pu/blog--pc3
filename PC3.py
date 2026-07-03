@@ -108,7 +108,7 @@ elif opciones == 'Experiencia':
     # Agregar un  texto para la respuesta
     texto_2 = """Python me esta enseñando a entender y crear
     Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
+    ¿Cómo te sentiste al principio?, Me senti bastante preocupada ya que era algo que nunca había intentado antes 
     ¿Qué te ha enseñado la programación?, 
     ¿Qué te gusta de programar?, 
     ¿Qué te gustaría hacer con la programación en el futuro?
