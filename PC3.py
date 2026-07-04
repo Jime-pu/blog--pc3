@@ -150,7 +150,7 @@ elif opciones == 'Experiencia':
         "En este video se presenta ...., "
         )
     st.subheader("🎥 Video 1 - PC1: explicando conceptos")
-       )
+    
     st.link_button(
             "Ver video",
             "https://drive.google.com/file/d/1zzYindZsC3KHWvYOKne7OG6VW9Swhpjb/view?usp=sharing")
