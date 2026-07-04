@@ -129,13 +129,10 @@ elif opciones == 'Experiencia':
     )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En este video se presenta información sobre los operadores booleanos, de pertenencia y comparativos  "
  
     )
     # Agrega una breve descripción del video.
-    st.caption(
-        "En este video se presenta ...., "
-    )
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
     st.subheader("🎥 Video 2 -PC2: ")
