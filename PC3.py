@@ -106,13 +106,12 @@ elif opciones == 'Experiencia':
     st.markdown("<h1 style='text-align: center;'>Nombre a la sección de experiencia 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
-    texto_2 = """Python me esta enseñando a entender y crear diversas formas de presentar y organizar información. 
+    texto_2 = 
+    """
+    Python me esta enseñando a entender y crear diversas formas de presentar y organizar información. 
     Me senti bastante preocupada ya que era algo que nunca había intentado antes y temia que no pudiese llegar a entenderlo.
-    
     Lo que me gusta de programar es que puedo modificar absolutamente cualquier caracteristica, dandome mas libertad conforme siga aprendiendo mas capacidades de codificar.
-    
     Me gustaría llevar mas cursos afines de programación con este tipo de lenguaje de solo texto, es útil para poder complejizar algun proyecto o ejercitar mi mente 
-    
     Se relaciona ya que es importante para un comunicador tener conocimientos diversificados además del manejo de datos, como las comunicaciones son interdisciplinarias y la programación te da casi completa libertad a la hora de crear los contenidos siento que puede ser un gran complemento. 
     """
 
