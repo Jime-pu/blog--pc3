@@ -123,7 +123,10 @@ elif opciones == 'Experiencia':
     st.subheader("🎥 Video 1 - PC1: explicando conceptos")
     # Inserta un video de YouTube directamente en la aplicación.
     # El usuario puede reproducirlo sin salir de Streamlit.
-    st.video("https://drive.google.com/file/d/1qwvVTVM1Y7_Cqc3XwP85bW4dVBHY8z7h/view?usp=sharing")
+    st.link_button(
+            "Ver video",
+            "https://drive.google.com/file/d/1qwvVTVM1Y7_Cqc3XwP85bW4dVBHY8z7h/view?usp=sharing"
+    )
     # Agrega una breve descripción del video.
     st.caption(
         "En este video se presenta ...., "
