@@ -134,12 +134,12 @@ elif opciones == 'Experiencia':
 
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - Google Drive")
+    st.subheader("🎥 Video 2 -PC2: ")
     # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
     # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
     st.link_button(
             "Ver video",
-            "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
+            "https://drive.google.com/file/d/1W7e9qJoF2EL9eK6kfONFxVYGaqoMw5N2/view?usp=sharing"
         )
     # Agrega una breve descripción del video.
     st.caption(
