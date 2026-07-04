@@ -122,10 +122,10 @@ elif opciones == 'Experiencia':
     # Formato A
     # Agregamos todo los videos realizados en las prácticas anteriores
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - YouTube")
+    st.subheader("🎥 Video 1 - PC1: explicando conceptos")
     # Inserta un video de YouTube directamente en la aplicación.
     # El usuario puede reproducirlo sin salir de Streamlit.
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.video("https://drive.google.com/file/d/1qwvVTVM1Y7_Cqc3XwP85bW4dVBHY8z7h/view?usp=sharing")
     # Agrega una breve descripción del video.
     st.caption(
         "En este video se presenta ...., "
