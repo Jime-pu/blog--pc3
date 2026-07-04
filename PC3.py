@@ -149,11 +149,11 @@ elif opciones == 'Experiencia':
     st.caption(
         "En este video se presenta ...., "
         )
-     st.subheader("🎥 Video 1 - PC1: explicando conceptos")
+    st.subheader("🎥 Video 1 - PC1: explicando conceptos")
        )
-     st.link_button(
+    st.link_button(
             "Ver video",
-            "https://drive.google.com/file/d/1zzYindZsC3KHWvYOKne7OG6VW9Swhpjb/view?usp=sharing"
+            "https://drive.google.com/file/d/1zzYindZsC3KHWvYOKne7OG6VW9Swhpjb/view?usp=sharing")
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
 
