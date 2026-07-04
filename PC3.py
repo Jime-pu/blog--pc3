@@ -149,7 +149,7 @@ elif opciones == 'Experiencia':
     st.caption(
         "En este video se presenta ...., "
         )
-    st.subheader("🎥 Video 1 - PC1: explicando conceptos")
+    st.subheader("🎥 Video 3 - Trabajo final")
     
     st.link_button(
             "Ver video",
