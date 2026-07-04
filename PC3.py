@@ -151,6 +151,9 @@ elif opciones == 'Experiencia':
     st.link_button(
             "Ver video",
             "https://drive.google.com/file/d/1zzYindZsC3KHWvYOKne7OG6VW9Swhpjb/view?usp=sharing")
+    st.caption(
+        "En este video se presenta información sobre el trabajo grupal sobre idols de kpop"
+        )
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
 
