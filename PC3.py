@@ -144,7 +144,7 @@ elif opciones == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En este video se presenta información sobre las condicionales if, elif y else y como se utilizan"
         )
     st.subheader("🎥 Video 3 - Trabajo final")
     
