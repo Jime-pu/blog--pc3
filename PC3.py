@@ -103,7 +103,7 @@ if opciones == 'Inicio':
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
 elif opciones == 'Experiencia':
-    st.markdown("<h1 style='text-align: center;'>Mis experiencias con Python             🪼⋆.ೃ࿔*:･ 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Mis experiencias con Python                                🪼⋆.ೃ࿔*:･ 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
     texto_2 = """
