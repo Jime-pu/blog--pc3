@@ -164,13 +164,13 @@ elif opciones == 'Gráficos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Gráfico: Nube de palabras del texto de Harry Potter")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
+            Este es un grafico que desarrollamos de un fragmento del texto de harry potter previamente eliminando las palabras repetidas.
             </div>
             """,
             unsafe_allow_html=True
@@ -181,7 +181,7 @@ elif opciones == 'Gráficos':
 
         with col4:
             st.image(
-                "aisladas_base_datos.png",
+                "pepinillo.png",
                 width=800
             )
 
