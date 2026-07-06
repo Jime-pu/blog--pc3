@@ -192,9 +192,9 @@ elif opciones == 'Gráficos':
         # Interpretación del gráfico
         st.markdown(
             """
-            <div style='text-align: justify; font-size: 18px;'>
+            
             Aquí debe ir una breve interpretación del gráfico.
-            </div>
+            
             """,
             unsafe_allow_html=True
         )
