@@ -224,7 +224,11 @@ elif opciones == 'Gráficos':
         # Cargar el mapa HTML generado previamente
         with open("mapa.html", "r", encoding="utf-8") as f:
             html_content = f.read()
-
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+            Este mapa fue creado apartir de un top de 5 peliculas ubicadas en su lugar geografico con datos como:Año de creación, género, director y coordenadas.
+            </div>
+            """,
         # Mostrar el mapa interactivo
         components.html(
             html_content,
