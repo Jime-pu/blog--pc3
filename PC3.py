@@ -208,8 +208,6 @@ elif opciones == 'Gráficos':
                 "pepinillo(1).png",
                 width=800
             )
-
-            )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
         st.subheader("🗺️ Mapa 1: Distribución geográfica")
