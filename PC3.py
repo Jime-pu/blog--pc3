@@ -185,27 +185,30 @@ elif opciones == 'Gráficos':
                 width=800
             )
 
-    elif grafico_seleccionado == 'Gráfico_2':
+    # Mostramos el gráfico seleccionado
+    if grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
-        st.subheader("📊 Frecuencia de goles para Villareal: Grafico de Barras")
+        st.subheader("📊 Gráfico: Nube de palabras del texto de Harry Potter")
 
         # Interpretación del gráfico
         st.markdown(
             """
-            
-        Frecuencia de goles de un equipo determinado, escogido por un numero (en este caso especifico de la Villareal) sacado de una base de datos, en este caso es el numero 20 de una lista de 20 equipos filtrados.
-            
+            <div style='text-align: justify; font-size: 20px;'>
+            Este es un grafico que desarrollamos de un fragmento del texto de harry potter previamente eliminando las palabras repetidas.
+            </div>
             """,
             unsafe_allow_html=True
         )
 
-        # Centrar la imagen
-        col6, col7, col8 = st.columns([1, 5, 1])
+        # Centrar la imagen utilizando tres columnas
+        col3, col4, col5 = st.columns([1, 5, 1])
 
-        with col7:
+        with col4:
             st.image(
                 "pepinillo(1).png",
                 width=800
+            )
+
             )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
