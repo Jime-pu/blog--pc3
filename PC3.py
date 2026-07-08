@@ -194,7 +194,7 @@ elif opciones == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Este es un grafico que desarrollamos de un fragmento del texto de harry potter previamente eliminando las palabras repetidas.
+            Este es un grafico de barras que muestra la frecuencia de un goles de un equipo determinado (en este caso La Villareal) en una lista filtrada de 20 equipos.
             </div>
             """,
             unsafe_allow_html=True
