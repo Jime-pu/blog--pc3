@@ -187,13 +187,13 @@ elif opciones == 'Gráficos':
 
     elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("📊 Frecuencia de goles para Villareal: Grafico de Barras")
 
         # Interpretación del gráfico
         st.markdown(
             """
             
-            Aquí debe ir una breve interpretación del gráfico.
+        Frecuencia de goles de un equipo determinado, escogido por un numero (en este caso especifico de la Villareal) sacado de una base de datos, en este caso es el numero 20 de una lista de 20 equipos filtrados.
             
             """,
             unsafe_allow_html=True
@@ -204,7 +204,7 @@ elif opciones == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "pepinillo(1).png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_1':
