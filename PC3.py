@@ -186,7 +186,7 @@ elif opciones == 'Gráficos':
             )
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico_1':
+    elif grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
         st.subheader("📊 Gráfico: Nube de palabras del texto de Harry Potter")
 
