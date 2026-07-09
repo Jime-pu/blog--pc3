@@ -231,6 +231,29 @@ elif opciones == 'Gráficos':
                 "pepinillo3.png",
                 width=800
             )
+            # Mostramos el gráfico seleccionado
+    elif grafico_seleccionado == 'Gráfico_4':
+        # Título de la sección
+        st.subheader("📊 Gráfico: Histograma de tarjetas rojas")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 20px;'>
+            Este es un Histograma de las tarjetas rojas recibidas como local en una lista filtrada de 20 equipos, segun equipo y promedio de tarjetas.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen utilizando tres columnas
+        col3, col4, col5 = st.columns([1, 5, 1])
+
+        with col4:
+            st.image(
+                "pepinillo1.png",
+                width=800
+            )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
         st.subheader("🗺️ Mapa 1: Distribución geográfica")
