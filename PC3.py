@@ -157,7 +157,7 @@ elif opciones == 'Experiencia':
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Gráficos ദ്ദി •⩊• </h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
+    graficos = ['Gráfico_1', 'Gráfico_2', 'Gráfico_3' 'Mapa_1']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
@@ -206,6 +206,29 @@ elif opciones == 'Gráficos':
         with col4:
             st.image(
                 "barritas.png",
+                width=800
+            )
+             # Mostramos el gráfico seleccionado
+    elif grafico_seleccionado == 'Gráfico_3':
+        # Título de la sección
+        st.subheader("📊 Gráfico: Grafico de Pastel de equipo de goles de un equipo de futbol")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 20px;'>
+            Este es un grafico de pastel que muestra la distribucion (ganador, perdedor, empate)de partidos  de un equipo determinado (Real Madrid) en una lista filtrada de 20 equipos.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen utilizando tres columnas
+        col3, col4, col5 = st.columns([1, 5, 1])
+
+        with col4:
+            st.image(
+                "pepinillo3.png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_1':
