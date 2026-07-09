@@ -211,7 +211,7 @@ elif opciones == 'Gráficos':
              # Mostramos el gráfico seleccionado
     elif grafico_seleccionado == 'Gráfico_3':
         # Título de la sección
-        st.subheader("📊 Gráfico: Grafico de Pastel de equipo de goles de un equipo de futbol")
+        st.subheader("📊 Gráfico: Grafico de Pastel de un equipo de futbol determinado")
 
         # Interpretación del gráfico
         st.markdown(
