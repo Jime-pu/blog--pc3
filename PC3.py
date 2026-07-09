@@ -186,9 +186,9 @@ elif opciones == 'Gráficos':
             )
 
     # Mostramos el gráfico seleccionado
-    elif grafico_seleccionado == 'Gráfico_1':
+    elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("📊 Gráfico: Nube de palabras del texto de Harry Potter")
+        st.subheader("📊 Gráfico: Grafico de Barras de equipo de goles de un equipo de futbol")
 
         # Interpretación del gráfico
         st.markdown(
