@@ -205,7 +205,7 @@ elif opciones == 'Gráficos':
 
         with col4:
             st.image(
-                "pepinillo(1).png",
+                "barritas.png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_1':
