@@ -232,7 +232,7 @@ elif opciones == 'Gráficos':
                 width=800
             )
             # Mostramos el gráfico seleccionado
-    elif grafico_seleccionado == 'Gráfico_4':
+        elif grafico_seleccionado == 'Gráfico_4':
         # Título de la sección
         st.subheader("📊 Gráfico: Histograma de tarjetas rojas")
 
